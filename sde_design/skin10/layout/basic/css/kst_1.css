@@ -1,0 +1,38 @@
+/* 2가지 방법 .sr-only */
+.sr-only{position:absolute; width:1px; height:1px; margin :0; padding:0;
+    text-indent: -99999px; line-height: 0;
+    transform: translateX(-99999px);   /* 스크롤 터짐 방지 */
+    visibility:hidden; opacity:0; 
+    }
+    
+    .inner {max-width:1280px !important;}
+    .position_absolute{position: absolute !important;}
+    .position_relative{position: relative !important;}
+    .position_fixed{position:fixed !important;}
+    
+    .w-100 { width: 100% !important;}
+    .text-center {text-align: center !important; }
+    .text-left{text-align:left !important;}
+    .text-right{text-align:right !important;}
+    
+    .text-white{color: white;}
+    .text-black{color: black;}
+
+    .d-flex{display:flex !important;}
+    .d-none{display:none !important;}
+    .d-block{display: block !important;}
+    
+    .justify-content-center{justify-content: center !important; }
+    .align-items-center{align-items: center !important;}
+    .justify-content-between{justify-content: space-between !important;}
+    .bg-white{background-color: white !important;}
+    .bg-black{background-color: black !important;}
+    
+    
+    .m-auto{margin : 0 auto  !important;}
+    .text-decoartion{text-decoration: none !important;}
+    .list-style{list-style: none !important;}
+    
+    .overflow-hidden{overflow: hidden !important;}
+
+    .utilMenu 
